@@ -21,6 +21,9 @@ nav {
     background-color: #C1E8E1;
 }
 
+@media only screen and (min-width: 868px) {
+
+
 .navImg {
     display: flex;
     justify-content: center;
@@ -29,6 +32,10 @@ nav {
 
 .navImg img:hover {
     padding-top: 3rem;
+}
+
+nav {
+    max-width: 100%;
 }
 
 nav ul {
@@ -41,14 +48,14 @@ nav ul {
 }
 
 nav li {
-    font-size: 1.5rem;
-    padding: 1rem;
+    font-size: 1.5vw;
+    padding: 1vw;
 }
 
 nav a {
-    padding: 5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-color: #C1E8E1;
@@ -349,4 +356,557 @@ button:hover {
     padding: 1rem;
     padding-left: 10rem;
     color: rgb(82, 82, 82);
+}
+
+/*
+CONTACT US
+*/
+
+#contactHead {
+    color: #2c7568;
+    margin-bottom: .7rem;
+}
+
+.myForm fieldset {
+    border-style: none;
+    background-image: linear-gradient(to right, rgb(220, 245, 240), rgb(235, 255, 253));
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color: #2c7568;
+    font-size: 1.1rem;
+    margin: 1.5rem;
+    margin-bottom: 0rem;
+    padding-bottom: 1rem;
+}
+
+.myForm label {
+    margin: 1.5rem;
+    font-size: 1.1rem;
+    color: #474747;
+}
+
+.myForm p {
+    margin: 1.5rem;
+    margin-top: 0;
+    color: #2c7568;
+    font-size: 1.1rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=email], .myForm textarea {
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=email], .myForm select, .myForm textarea {
+    border-style: none;
+    padding: .5rem;
+    padding-left: .7rem;
+    width: 150px;
+    min-width: fit-content;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.myForm [type=checkbox] {
+    margin: .3rem;
+}
+
+#selectHead {
+    margin-left: 0;
+    margin-top: 2rem;
+}
+
+.myForm select {
+    color: #474747;
+}
+
+.myForm textarea {
+    margin-left: 0;
+    height: 8rem;
+    width: 100%;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(220, 245, 240);
+    border-width: 4px;
+}
+
+.myForm [type=submit] {
+    margin-bottom: 6rem;
+    padding: .8rem;
+    color: #d15400;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-image: linear-gradient(to left, rgb(160, 255, 231), rgb(219, 253, 247));
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 12px 40px rgb(216, 233, 229);
+    margin-left: 1.5rem;
+}
+
+.myForm [type=submit]:hover {
+    background-image: linear-gradient(to top, rgb(106, 255, 218), rgb(235, 255, 250));
+    color: #fd6500;
+    box-shadow: 0px 5px 50px rgb(199, 219, 215);
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 867px) {
+    
+
+.navImg {
+    display: flex;
+    justify-content: center;
+    padding: .2rem;
+    padding-top: 1.2rem;
+}
+
+.navImg img:hover {
+    padding-top: 2rem;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+nav li {
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 1.8rem;
+    width: 100%;
+}
+
+nav a {
+    padding: 35vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background-color: #C1E8E1;
+    color: #9B3F00;
+    max-width: 100vw;
+}
+
+nav a:hover {
+    color: #db5800;
+}
+
+.active {
+    color: white;
+}
+
+.active:hover {
+    color: white;
+}
+
+main {
+    padding-top: 9rem;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.welcome h1 {
+    font-size: 4rem;
+    color: #2c7568;
+}
+
+.homeWelcome {
+    font-size: 3rem !important;
+}
+
+.welcome h2 {
+    font-size: 1.5rem;
+    color: #9B3F00;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+}
+
+.aboutImg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutImg img {
+    border-radius: 15px;
+    box-shadow: 0px 4px 40px #a2cac3;
+}
+
+.aboutText h2 {
+    font-size: 3.5rem;
+    color: #87b3aa;
+    padding-top: 3rem;
+}
+
+.aboutText p {
+    color: rgb(107, 107, 107);
+    font-size: 1.5rem;
+    line-height: 3.2rem;
+    padding-bottom: 3rem;
+    border: transparent;
+    border-bottom: #9B3F00;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.testimonialsHeader {
+    font-size: 3.5rem;
+    color: #87b3aa;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.testimonials {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials div {
+    padding: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+}
+
+.testimonials div p {
+    line-height: 2.6rem;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    color: rgb(107, 107, 107);
+}
+
+.testimonials div h3 {
+    color: #2c7568;
+}
+
+footer {
+    padding: 1rem;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    color: #2c7568;
+}
+
+/*
+DESTINATIONS
+*/
+
+.destGallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destGallery figure img {
+    border-radius: 10px;
+    width: 60vw;
+}
+
+.destGallery figcaption {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c7568;
+    margin-top: 1rem;
+}
+
+.destGallery div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-style: solid;
+    border-color: #87b3aa;
+    border-radius: 15px;
+    border-width: 1px;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 10px 50px #a2cac3;
+}
+
+.destGallery div p {
+    padding-top: .5rem;
+    width: 60vw;
+    color: rgb(107, 107, 107);
+    line-height: 1.8rem;
+}
+
+/*
+VIDEO PAGE
+*/
+
+.vidHeader {
+    font-size: 4rem;
+    color: #87b3aa;
+}
+
+.vidPDiv {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.vidP {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 70vw;
+    color: rgb(107, 107, 107);
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+    border: transparent;
+    border-bottom: #9B3F00;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.articles h4 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    color: #87b3aa;
+}
+
+.articles a {
+    color: #2c7568;
+    font-size: 1.6rem;
+    padding: 2rem;
+}
+
+.articles a:hover {
+    color: #9B3F00;
+    box-shadow: 0px 0px 2px #a2cac3;
+}
+
+/*
+PACKAGES
+*/
+
+.glasgowGall {
+    display: flex;
+    justify-content: center;
+}
+
+.glasgowPackage h2 {
+    color: #87b3aa;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    
+}
+
+.glasgowGall img {
+    width: 33%;
+    margin: .3rem;
+    padding-bottom: 1rem;
+}
+
+.glasgowPackage p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.glasgowPackage h3 {
+    color: #2c7568;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.glasgowPackage a {
+    color: #d15400;
+}
+
+.glasgowPackage a:hover {
+    color: #35d8ba;
+}
+
+button {
+    margin-bottom: 6rem;
+    padding: 1rem;
+    color: #d15400;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-image: linear-gradient(to left, rgb(160, 255, 236), rgb(219, 253, 247));
+    border: transparent;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    box-shadow: 0px 12px 40px rgb(223, 238, 235);
+}
+
+button:hover {
+    background-image: linear-gradient(to top, rgb(106, 255, 225), rgb(235, 255, 251));
+    color: #fd6500;
+    box-shadow: 0px 15px 50px rgb(199, 219, 215);
+}
+
+.pack {
+    display: flex;
+    flex-direction: column;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgb(223, 238, 235);
+}
+
+
+.pack p {
+    padding: 1rem;
+    padding-top: 0;
+    color: rgb(82, 82, 82);
+}
+
+/*
+CONTACT US
+*/
+
+#contactHead {
+    color: #2c7568;
+    margin-bottom: .7rem;
+}
+
+.myForm fieldset {
+    border-style: none;
+    background-image: linear-gradient(to right, rgb(220, 245, 240), rgb(235, 255, 253));
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color: #2c7568;
+    font-size: 1.1rem;
+    margin: 1.5rem;
+    margin-bottom: 0rem;
+    padding-bottom: 1rem;
+}
+
+.myForm label {
+    margin: 1.5rem;
+    font-size: 1.1rem;
+    color: #474747;
+}
+
+.myForm p {
+    margin: 1.5rem;
+    margin-top: 0;
+    color: #2c7568;
+    font-size: 1.1rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=email], .myForm textarea {
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=email], .myForm select, .myForm textarea {
+    border-style: none;
+    padding: .5rem;
+    padding-left: .7rem;
+    width: 150px;
+    min-width: fit-content;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.myForm [type=checkbox] {
+    margin: .3rem;
+}
+
+#selectHead {
+    margin-left: 0;
+    margin-top: 2rem;
+}
+
+.myForm select {
+    color: #474747;
+}
+
+.myForm textarea {
+    margin-left: 0;
+    height: 8rem;
+    width: 100%;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(220, 245, 240);
+    border-width: 4px;
+}
+
+.myForm [type=submit] {
+    margin-bottom: 6rem;
+    padding: .8rem;
+    color: #d15400;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-image: linear-gradient(to left, rgb(160, 255, 231), rgb(219, 253, 247));
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 12px 40px rgb(216, 233, 229);
+    margin-left: 1.5rem;
+}
+
+.myForm [type=submit]:hover {
+    background-image: linear-gradient(to top, rgb(106, 255, 218), rgb(235, 255, 250));
+    color: #fd6500;
+    box-shadow: 0px 5px 50px rgb(199, 219, 215);
+}
+
+    
 }

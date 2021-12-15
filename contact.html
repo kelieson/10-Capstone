@@ -37,6 +37,59 @@
             <h2>We'd love to hear from you</h2>
           </section>
 
+          <h1 id="contactHead">Request a Consult</h1>
+          <form method="get" class="myForm" action="thanks.html">
+          
+          <fieldset>
+          <legend>Personal Information</legend>
+          <label>First Name*<input type="text" name="fname" required>
+          </label>
+          <label>Last Name<input type="text" name="lname">
+          </label>
+          <label>Email Address*<input type="email" name="phone" required
+          placeholder="janedoe@mail.com">
+          </label>
+          </fieldset>
+  
+          <fieldset>
+          <legend>Trip Information</legend>
+              <p>How long are you planning to retreat?</p>
+              <label><input type="radio" name="method"
+              value="less">Less than a week</label>
+              <label><input type="radio" name="method"
+              value="more">A week ore more</label>
+              <label><input type="radio" name="method"
+              value="unsure">Not sure yet</label>    
+          </fieldset>
+          <fieldset>
+          <legend>Destination Information</legend>
+              <p>Which retreats are you interested in?</p>
+              <label><input type="checkbox" name="LD" value="chosen">Lake District</label>
+              <label><input type="checkbox" name="Dennistoun" value="chosen">Dennistoun</label>
+              <label><input type="checkbox" name="Glasgow" value="chosen">Glasgow</label>
+              <label><input type="checkbox" name="Helvellyn" value="chosen">Helvellyn</label>
+              <label><input type="checkbox" name="Cornwall" value="chosen">Cornwall</label>
+              <label><input type="checkbox" name="Kelvingrove" value="chosen">Kelvingrove</label>
+              <label><input type="checkbox" name="unsure" value="chosen">Not sure yet</label>
+              
+              <label>
+                <p id="selectHead">When are you interested in leaving?</p>
+              <select name="time">
+                  <option value="none">Please Select</option>
+                  <option value="monthMinus">Within a month</option>
+                  <option value="monthPlus">More than a month from now</option>
+                  <option value="unsure">Not sure yet</option>
+              </select>
+              </label>
+          </fieldset>
+  
+          <label>Comments
+              <textarea name="comments"></textarea>
+          </label>
+  
+          <input type="submit" value="Send Consult Request">
+          </form>
+
     </main>
     <footer>
         <p>Sample portfolio created for DGM 2120 by Kate Elieson &copy; 2021</p>
